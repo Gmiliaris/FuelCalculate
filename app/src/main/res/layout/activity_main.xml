@@ -9,7 +9,6 @@
     android:background="@color/charcoal"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imgView_gas"
         android:layout_width="150dp"
@@ -22,7 +21,6 @@
         app:layout_constraintVertical_bias="0.153"
         app:srcCompat="@drawable/gas"
         app:tint="@color/white" />
-
 
     <TextView
         android:id="@+id/textView1"
@@ -39,7 +37,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imgView_gas"
         tools:ignore="HardcodedText" />
 
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
@@ -55,7 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="HardcodedText" />
-
 
     <Button
         android:id="@+id/btn_Start"
