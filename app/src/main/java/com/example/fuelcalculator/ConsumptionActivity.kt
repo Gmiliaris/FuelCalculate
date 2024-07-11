@@ -14,7 +14,7 @@ class ConsumptionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_consumption)
 
         val edtConsumption = findViewById<TextInputEditText>(R.id.edt_Consumption)
-        val btnNext = findViewById<Button>(R.id.btn_Next)
+        val btnNext = findViewById<Button>(R.id.btn_Consumption)
         btnNext.setOnClickListener {
             val consumptionStr: String = edtConsumption.text.toString()
 

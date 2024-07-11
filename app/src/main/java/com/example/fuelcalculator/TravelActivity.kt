@@ -13,7 +13,7 @@ class TravelActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_travel)
         val edtTrip = findViewById<TextInputEditText>(R.id.edt_Trip)
-        val btnNext = findViewById<Button>(R.id.btn_Next)
+        val btnNext = findViewById<Button>(R.id.btn_Travel)
         btnNext.setOnClickListener {
             val tripStr: String = edtTrip.text.toString()
 
