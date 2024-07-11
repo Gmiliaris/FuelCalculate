@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.textfield.TextInputEditText
 
 class ConsumptionActivity : AppCompatActivity() {
@@ -19,10 +17,9 @@ class ConsumptionActivity : AppCompatActivity() {
         val btnNext = findViewById<Button>(R.id.btn_Next)
         btnNext.setOnClickListener {
             val consumptionStr: String = edtConsumption.text.toString()
-            println("teste")
 
-            val intent = Intent(this, ConsumptionActivity::class.java)
+            val intent = Intent(this, TravelActivity::class.java)
             startActivity(intent)
-
+        }
     }
 }

@@ -45,7 +45,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginTop="64dp"
-        android:text="You have no idea how much you will spend on fuel for your trip, this app is for you"
+        android:text="You have no idea how much you will spend on fuel for your travel, this app is for you"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="18sp"
